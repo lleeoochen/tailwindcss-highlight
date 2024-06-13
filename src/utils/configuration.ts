@@ -113,7 +113,7 @@ const borderStyle = (color: string) => ({
 })
 
 const highlightStyle = (color: string) => ({
-  color: '#333',
+  color: color,
   borderRadius: '0.25rem',
-  backgroundColor: color
+  backgroundColor: '#3f0a4e'
 })
